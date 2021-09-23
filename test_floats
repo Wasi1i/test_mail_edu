@@ -11,3 +11,17 @@ def test_float_3():
     a = -100.5
     b = -100
     assert a > b
+  
+def test_tuple_1():
+    a = (1, 2, 3)
+    try:
+        assert a[0] = 7
+    except TypeError:
+        pass
+def test_tuple_2():
+    a = (1, 2, 3)
+    b = (4, 5, 6)
+    assert a, b = b, a
+def test_tuple_3():
+    a = (1)
+    assert type(a) != type.tuple
