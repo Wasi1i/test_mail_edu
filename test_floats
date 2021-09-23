@@ -1,0 +1,13 @@
+import type
+def test_float_1():
+    a = 1.0
+    b = 2
+    c = a + b
+    assert type(c) is not type.float
+def test_float_2():
+    a = (-100.5, 1000)
+    assert type(c[0]) is type.float and type(c[1]) is not type.float
+def test_float_3():
+    a = -100.5
+    b = -100
+    assert a > b
